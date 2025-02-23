@@ -1,0 +1,3 @@
+# Unexpected NaN Handling in toString() Conversion
+
+This repository demonstrates a subtle bug in JavaScript related to the handling of NaN (Not a Number) values when attempting to convert them to strings using the toString() method.  The original code incorrectly treats NaN directly, leading to its value being returned directly, rather than a more appropriate string representation (e.g., "NaN"). The solution provides a corrected version.
